@@ -1,0 +1,38 @@
+@font-face {
+	font-family: Lobster;
+	src: local("Lobster"),
+		url(Lobster.ttf);
+  }
+
+body{
+	margin:20px auto;
+	width:800px;
+	background-color:#FFFFFF;
+	color:#000000;
+}
+.content{
+	margin:20px auto;
+	padding-left:20px;
+	clear:both;
+}
+
+.content h3{
+	margin-left:-20px;
+}
+
+h1, h2, h3 {
+	font-family: Lobster, arial;
+	font-weight: normal;
+}
+
+#right{
+	position:absolute;
+	padding:20px;
+	right:20px;
+}
+
+.menu-item{
+	text-align:right;
+	display:block;
+	width:150px;
+}
