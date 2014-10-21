@@ -31,6 +31,11 @@
 							.text($(item).find(settings.titleSelector).first().text())
 							.attr("href","#"+$(item).attr("id"))
 							.addClass(settings.menuElClass)
+							.click(function(){
+								$(document.body).animate({
+								    'scrollTop': $(item).offset().top
+								}, 500);
+							})
 					)
 			});
 		}
